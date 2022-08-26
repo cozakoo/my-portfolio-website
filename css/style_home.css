@@ -1,8 +1,48 @@
 body {
-  /* background-color: #f1f1f1; */
+  /* Margen y color de fondo */
+  background-color: #EEEEEE;
+  margin: 0px;
 }
 
+.Menu {
+  padding: 10px;
+  background-color: #393E46;
+}
+
+
+#milogo {
+  /* Dimensiones */
+  width: 10px;
+  height: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #00ADB5;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: #393E46;
+}
+
+/* 
 .descripcion {
   padding-left: 1.5em;
-  /* background-color: aqua; */
 }
+ */
