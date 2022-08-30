@@ -1,23 +1,19 @@
 body {
-  /* Margen y color de fondo */
-  /* background-color: #eeeeee; */
+  background-color: #c0b5b5;
   background-image: url("../../src/fondo.jpg");
   background-repeat: no-repeat;
-  background-position: 100% 0%;
-  /* background-attachment: fixed; */
-
-  /* bac */
-  /* margin: 0px; */
-
+  background-position: 100 0%;
+  background-size: contain;
+  background-color: #E2DCC8;
 }
 
 .Menu {
   width: 100%;
   padding: 2px;
   padding-left: 10px;
-  background-color: #393e46;
+  background-color: #F1F1F1;
   display: block;
-  position: absolute;
+  position: static;
   z-index: 10;
 }
 
@@ -25,8 +21,9 @@ body {
   /* Dimensiones */
   width: 60px;
   height: 60px;
-  border: 1px solid #00adb5;
-  /* padding: 16px; */
+}
+#milogo:hover{
+  transform: scale(1.2);
 }
 
 ul {
@@ -50,7 +47,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #000000;
+  background-color: #c0b5b5;
 }
 
 /* 
@@ -102,14 +99,15 @@ li a:hover {
 
 .parrafo {
   margin-top: 100px;
-  width: 50%;
+  width: 70%;
   height: auto;
   /* Corrimiento hacia arriba */
 
   padding: 20px 20px;
   /* font-size: 15px; */
   /* line-height: 1.5; */
-  background: #fff;
+  background-color: #E2DCC8; 
+  opacity: 1;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: left;
@@ -117,20 +115,30 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
   /* position: relative; */
-  border: 2px dashed #00adb5;
+  border: 2px dashed #100F0F;
+  display: inline-block;
 
 }
+.fotoPerfil{
+border:1px solid #00adb5;
+float: left;
+width: min-content;
+}
 
-.parrafo img {
+.informacionPerfil{
+  border:1px solid #00adb5;
+  float: left;
+  
+  width: max-content;
+}
+
+.fotoPerfil img {
   width: 300px;
   border-radius: 5px;
-  float: left;
+  /* float: left; */
   margin: 0px;
-  /* margin-right: 20px; */
-  margin: 20px;
+  /* margin: 20px; */
   margin-left: 0px;
-  /* margin-bottom: 40px; */
-
 }
 
 .parrafo #nombreapellido {
@@ -142,7 +150,7 @@ li a:hover {
 .parrafo #profesion {
   /* bottom: 2px; */
   /* position: relative; */
-  color: #00adb5;
+  color: #0F3D3E;
 }
 
 .parrafo #telefono {
@@ -152,9 +160,9 @@ li a:hover {
   color: #000000;
 }
 
-h1 {
-  color: gray;
-  /* text-align: left; */
+.title{
+  color: rgb(49, 49, 49);
+  text-align: center;
 }
 
 p {
