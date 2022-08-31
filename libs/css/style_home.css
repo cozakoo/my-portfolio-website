@@ -22,7 +22,8 @@ body {
   width: 60px;
   height: 60px;
 }
-#milogo:hover{
+
+#milogo:hover {
   transform: scale(1.2);
 }
 
@@ -99,14 +100,13 @@ li a:hover {
 
 .parrafo {
   margin-top: 100px;
-  width: 70%;
-  height: auto;
+  width: 50%;
+  height: 400px;
   /* Corrimiento hacia arriba */
-
   padding: 20px 20px;
   /* font-size: 15px; */
   /* line-height: 1.5; */
-  background-color: #E2DCC8; 
+  background-color: #E2DCC8;
   opacity: 1;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
@@ -116,19 +116,22 @@ li a:hover {
   margin-right: auto;
   /* position: relative; */
   border: 2px dashed #100F0F;
-  display: inline-block;
+
+
 
 }
-.fotoPerfil{
-border:1px solid #00adb5;
-float: left;
-width: min-content;
-}
 
-.informacionPerfil{
-  border:1px solid #00adb5;
+.fotoPerfil {
+  border: 1px solid #00adb5;
   float: left;
-  
+  width:auto;
+
+}
+
+.informacionPerfil {
+  border: 1px solid #00adb5;
+  float: left;
+
   width: max-content;
 }
 
@@ -160,7 +163,7 @@ width: min-content;
   color: #000000;
 }
 
-.title{
+.title {
   color: rgb(49, 49, 49);
   text-align: center;
 }
@@ -168,4 +171,26 @@ width: min-content;
 p {
   margin: 40px;
   text-align: justify;
+}
+
+.pieDePagina {
+
+
+  border: 1px solid #0F3D3E;
+  background-color: #F1F1F1;
+  /* margin-bottom: auto; */
+  /* margin-top: 500px; */
+  padding: 15px;
+  text-align: center;
+}
+
+img {
+  width: 3%;
+  /* width: 50px; */
+  /* height: 50px; */
+}
+
+a {
+  text-align: center;
+  margin: 10%;
 }
