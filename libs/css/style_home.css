@@ -5,116 +5,73 @@ body {
   background-position: 100 0%;
   background-size: contain;
   background-color: #e2dcc8;
+  overflow-x: hidden;
 }
 
+/* BARRA DE MENU */
 .Menu {
   width: 100%;
   padding: 2px;
   padding-left: 10px;
   background-color: #f1f1f1;
   display: block;
-  position: static;
+  position: fixed;
   z-index: 10;
+  top: 0;
 }
 
-#milogo {
+/* LOGO */
+.Menu img {
   /* Dimensiones */
   width: 60px;
   height: 60px;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 10px;
 }
 
-#milogo:hover {
-  transform: scale(1.2);
+.Menu #milogo:hover {
+  transform: scale(1.1);
 }
 
-ul {
+.Menu ul {
   display: inline-block;
   list-style-type: none;
   padding: 0px;
-  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
 }
 
-li {
+.Menu li {
   float: left;
 }
-
-li a {
-  color: #00adb5;
-  text-align: left;
-  padding: 16px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-li a:hover {
+.Menu a:hover {
   background-color: #c0b5b5;
 }
 
-/* 
-.imagenFondo {
-  margin-top: 1px;
-  width: 100%;
-  /* margin: 0 auto; */
-/* padding: 0px; */
-/* } */
-#id_imagenFondo {
-  width: 100%;
-  height: 20%;
-  /* opacity: 0.9; */
+.Menu a {
+  color: #00adb5;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 19px;
 }
 
-/* .plantilla { */
-/* border: 2px dashed #00adb5; */
-/* height: auto; */
-/* width: 70%; */
-/* bottom: 350px; */
-/* centrado automaticamente */
-/* padding: 0px; */
-/* margin-left: auto; */
-/* margin-right: auto; */
-/* position: relative; */
-/* background-color: #c0c0c0; */
-/* border-radius: 15px; */
-/* } */
-/* 
-#id_fotoPerfilCV {
-  position: absolute;
-  float: left;
-  clear: left;
-  width: 40%;
-  border-radius: 15px;
-  padding: 4px;
-  margin-top: auto;
-  margin-bottom: auto;
-  position: relative;
-} */
-
-/* .capa{
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  background: #38273b;
-  opacity: 0.7;
-} */
-
 .parrafo {
-  margin-top: 100px;
+  margin-top: 150px;
   width: 50%;
   height: 400px;
-  /* Corrimiento hacia arriba */
   padding: 20px 20px;
-  /* font-size: 15px; */
-  /* line-height: 1.5; */
+  line-height: 0.5;
   background-color: #e2dcc8;
   opacity: 1;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: left;
-  /* centrado automaticamente */
   margin-left: auto;
   margin-right: auto;
-  /* position: relative; */
   border: 2px dashed #100f0f;
 }
 
@@ -122,13 +79,6 @@ li a:hover {
   border: 1px solid #00adb5;
   float: left;
   width: auto;
-}
-
-.informacionPerfil {
-  border: 1px solid #00adb5;
-  float: left;
-
-  width: max-content;
 }
 
 .fotoPerfil img {
@@ -140,53 +90,70 @@ li a:hover {
   margin-left: 0px;
 }
 
-.parrafo #nombreapellido {
-  font-size: 30px;
-  color: rgb(0, 0, 0);
-  text-align: center;
+.informacionPerfil {
+  border: 1px solid #00adb5;
+  float: left;
+
+  width: max-content;
 }
 
-.parrafo #profesion {
-  /* bottom: 2px; */
-  /* position: relative; */
-  color: #0f3d3e;
-}
-
-.parrafo #telefono {
-  bottom: 20px;
-  position: relative;
-  font-weight: 500;
-  color: #000000;
-}
-
+/* Titulo de secciones */
 .title {
   color: rgb(49, 49, 49);
   text-align: center;
 }
 
+/* parrafos */
 p {
   margin: 40px;
   text-align: justify;
 }
 
+/* enlaces */
+a {
+  /* color: #00adb5; */
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HOLA SOY MARTIN */
+.presentacion a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+
 .pieDePagina {
   border: 1px solid #0f3d3e;
   background-color: #f1f1f1;
-  /* margin-bottom: auto; */
-  /* margin-top: 500px; */
-  padding: 15px;
+  margin: 0px;
+  padding: 2px;
   text-align: center;
 }
 
-img {
+.pieDePagina img {
   width: 3%;
-  /* width: 50px; */
-  /* height: 50px; */
 }
 
 a {
   text-align: center;
   margin: 10%;
+}
+
+/* PROPIEDADES PARA DESCARGA DE CV */
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  cursor: pointer;
 }
 
 .box-3 {
@@ -199,21 +166,11 @@ a {
   margin-bottom: 20px;
 }
 
-.btn {
-  line-height: 50px;
-  height: 50px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  cursor: pointer;
+.box-3 a {
+  margin: 0px;
+  padding: 0px;
 }
 
-/* 
-========================
-      BUTTON THREE
-========================
-*/
 .btn-three {
   color: #fff;
   transition: all 0.5s;
@@ -250,4 +207,43 @@ a {
 .btn-three:hover::after {
   opacity: 1;
   transform: scale(1, 1);
+}
+
+/* WHATSAAP AL FRENTE DE TODO */
+.btn-wsp {
+  /* posicionamiento y desplazamiento */
+  position: fixed;
+  bottom: 200px;
+  right: 10px;
+
+  /* color y radio */
+  background: #25d365a7;
+  color: rgba(255, 255, 255, 0.679);
+  border-radius: 50px;
+
+  /* dimencion */
+  width: 30px;
+  height: 30px;
+
+  /* texto */
+  line-height: 30px;
+  text-align: center;
+  font-size: 33px;
+
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+  margin-right: 0px;
+}
+.btn-wsp:hover {
+  background: #20ba5a;
+  color: #fff;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
