@@ -6,6 +6,10 @@ body {
   background-size: contain;
   background-color: #e2dcc8;
   overflow-x: hidden;
+
+  /* ESTO NO SE VE REFLEJADO */
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /* BARRA DE MENU */
@@ -14,7 +18,7 @@ body {
   padding: 2px;
   padding-left: 10px;
   /* background-color: #f1f1f1; */
-  background: linear-gradient(160deg, #f1f1f1  20%, #e2dcc8);  
+  background: linear-gradient(160deg, #f1f1f1 20%, #e2dcc8);
   /* background: linear-gradient(0deg, black, #f1f1f1); */
   display: block;
   position: fixed;
@@ -65,88 +69,86 @@ body {
 
 .parrafo {
   margin-top: 150px;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
   width: 50%;
-  height: 400px;
+  height: max-content;
   padding: 20px 20px;
-  line-height: 0.5;
+  line-height: 1;
   background-color: #e2dcc8;
   opacity: 1;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  font-size: 19px;
   border-radius: 5px;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+
   border: 2px dashed #100f0f;
+  
+  /* clear: both; */
 }
 
-.fotoPerfil {
+.imagenPerfil {
   border: 1px solid #00adb5;
-  float: left;
+  float:left;
+  /* width: auto; */
   width: auto;
-  vertical-align: middle;
 }
 
-.fotoPerfil img {
-  width: 300px;
+.imagenPerfil img {
   border-radius: 5px;
-  /* float: left; */
-  margin: 0px;
-  /* margin: 20px; */
-  margin-left: 0px;
+  /* float:left; */
 }
 
-/* .informacionPerfil {
-  border: 1px solid #00adb5;
-  float: left;
-
-  width: max-content;
-} */
-
-/* Titulo de secciones */
 .title {
   color: rgb(49, 49, 49);
   text-align: center;
-  font-family: 'Oleo Script', cursive;  
-}
-
-/* parrafos */
-p {
-  margin: 40px;
-  text-align: justify;
-}
-
-/* enlaces */
-a {
-  /* color: #00adb5; */
-  text-align: left;
-  padding: 16px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Oleo Script", cursive;
 }
 
 /* HOLA, SOY MARTIN */
+.presentacion{
+  /* height:400px; */
+  /* position: relative; */
+  text-align : center;
+  /* border: 2px dashed #100f0f; */
+  /* margin-left: 40px; */
 
-.presentacion p{
-  font-family: 'Caladea', serif;
-  margin: 40px;
+}
+
+.presentacion p {
+  font-family: "Caladea", serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* margin: 40px; */
+  /* width: 50%; */
+  /* float: left; */
   text-align: justify;
+
+  /* position: relative; */
 }
 /* HOLA SOY MARTIN */
 .presentacion a {
+  font-family: "Caladea", serif;
   text-decoration: none;
   color: #000000;
-  font-size: 13px;
+  font-size: 16px;
   margin: 0px;
   padding: 0px;
-}
-
-.presentacion img{
-position: relative;
+  text-align: justify;
+  /* position: relative; */
 
 }
 
-
+.presentacion img {
+  /* position: relative; */
+  float: right;
+  width: 15%;
+  margin-right: 40px;
+  margin-left: 40px;
+  /* display: block; */
+}
 
 /* PIE DE PAGINA */
 .pieDePagina {
@@ -177,11 +179,21 @@ position: relative;
   font-size: small;
 }
 
+.botonWhatsapp a {
+  padding: 16px;
+  margin-bottom: 10%; 
+}
 
-
+/* enlaces */
 a {
-  text-align: center;
-  margin: 10%;
+  text-decoration: none;
+}
+
+/* parrafos */
+p {
+  /* display: inline-block; */
+  /* margin: 40px; */
+  /* text-align: justify; */
 }
 
 /* PROPIEDADES PARA DESCARGA DE CV */
