@@ -8,8 +8,8 @@ body {
   overflow-x: hidden;
 
   /* ESTO NO SE VE REFLEJADO */
-  margin-left: 40px;
-  margin-right: 40px;
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
 }
 
 /* BARRA DE MENU */
@@ -19,7 +19,6 @@ body {
   padding-left: 10px;
   /* background-color: #f1f1f1; */
   background: linear-gradient(160deg, #f1f1f1 20%, #e2dcc8);
-  /* background: linear-gradient(0deg, black, #f1f1f1); */
   display: block;
   position: fixed;
   z-index: 10;
@@ -72,33 +71,59 @@ body {
   margin-bottom: 20%;
   margin-left: auto;
   margin-right: auto;
-
-  width: 50%;
+  width: 60%;
   height: max-content;
   padding: 20px 20px;
-  line-height: 1;
   background-color: #e2dcc8;
   opacity: 1;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-  font-size: 19px;
   border-radius: 5px;
-  text-align: center;
-
+  display: flex;
   border: 2px dashed #100f0f;
-  
   /* clear: both; */
 }
 
 .imagenPerfil {
   border: 1px solid #00adb5;
-  float:left;
+  float: left;
   /* width: auto; */
+  /* margin-right: 20px; */
   width: auto;
 }
 
 .imagenPerfil img {
   border-radius: 5px;
+  width: 100%;
   /* float:left; */
+}
+
+.informacionPerfil {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-size: 19px;
+  line-height: 1;
+}
+
+.informacionPerfil h1 {
+  font-family: 'GFS Didot', serif;
+  color: #000000;
+  text-align: center;
+  /* -webkit-box-shadow: 13px 20px 20px 4px rgba(0,0,0,1); */
+  /* -moz-box-shadow: 13px 20px 20px 4px rgba(0,0,0,1); */
+  /* box-shadow: 13px 20px 20px 4px rgba(0,0,0,1); */
+}
+#profesion{
+  font-size: 110%;
+  color: #272727;
+  font-weight: bold;
+}
+
+.informacionPerfil p{
+  font-family: 'Tiro Devanagari Hindi', serif;
+  color: #172b6d;
+  margin-left: 5%;
+  font:italic;
 }
 
 .title {
@@ -108,10 +133,10 @@ body {
 }
 
 /* HOLA, SOY MARTIN */
-.presentacion{
+.presentacion {
   /* height:400px; */
   /* position: relative; */
-  text-align : center;
+  text-align: center;
   /* border: 2px dashed #100f0f; */
   /* margin-left: 40px; */
 
@@ -128,6 +153,7 @@ body {
 
   /* position: relative; */
 }
+
 /* HOLA SOY MARTIN */
 .presentacion a {
   font-family: "Caladea", serif;
@@ -160,28 +186,28 @@ body {
   margin-bottom: 20px;
 }
 
-.pieDePagina img {
-  width: 3%;
-  /* width: 3%; */
-}
+/* .pieDePagina img { */
+/* width: 3%; */
+/* width: 3%; */
+/* } */
 
-.pieDePagina #telefono {
-  width: 25px;
-  /* width: 3%; */
-}
+/* .pieDePagina #telefono { */
+/* width: 25px; */
+/* width: 3%; */
+/* } */
 
-.pieDePagina a {
-  padding: 0px;
-  /* line-height: 0.5; */
-  /* margin: 0px; */
-  /* margin-top: 30%; */
-  /* margin-bottom: 2px; */
-  font-size: small;
-}
+/* .pieDePagina a { */
+/* padding: 0px; */
+/* line-height: 0.5; */
+/* margin: 0px; */
+/* margin-top: 30%; */
+/* margin-bottom: 2px; */
+/* font-size: small; */
+/* } */
 
 .botonWhatsapp a {
   padding: 16px;
-  margin-bottom: 10%; 
+  margin-bottom: 10%;
 }
 
 /* enlaces */
@@ -303,4 +329,20 @@ p {
     font-size: 20px;
     line-height: 20px;
   }
+}
+
+/* FACEBOOK */
+.fa-brands {
+  color: rgba(4, 0, 255, 0.679);
+  background: #000000;
+  border-radius: 50px;
+  width: 50px;
+  height: 30px;
+  font-size: 40px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fa-brands:hover {
+  background: #20ba5a;
+  color: #fff;
 }
