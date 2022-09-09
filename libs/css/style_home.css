@@ -68,7 +68,7 @@ body {
 
 .parrafo {
   margin-top: 150px;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -113,15 +113,26 @@ body {
   /* -moz-box-shadow: 13px 20px 20px 4px rgba(0,0,0,1); */
   /* box-shadow: 13px 20px 20px 4px rgba(0,0,0,1); */
 }
-#profesion{
+
+.informacionPerfil #profesion{
   font-size: 110%;
   color: #272727;
   font-weight: bold;
+  margin-bottom: 8%;
+  text-align: center;
+}
+
+.informacionPerfil #form_pregunta{
+  font-weight:600;
+}
+
+.informacionPerfil #form_respuesta{
+  margin-left: 60px;
 }
 
 .informacionPerfil p{
   font-family: 'Tiro Devanagari Hindi', serif;
-  color: #172b6d;
+  color: #000000;
   margin-left: 5%;
   font:italic;
 }
@@ -131,17 +142,6 @@ body {
   text-align: center;
   font-family: "Oleo Script", cursive;
 }
-
-/* HOLA, SOY MARTIN */
-.presentacion {
-  /* height:400px; */
-  /* position: relative; */
-  text-align: center;
-  /* border: 2px dashed #100f0f; */
-  /* margin-left: 40px; */
-
-}
-
 .presentacion p {
   font-family: "Caladea", serif;
   margin-left: 40px;
