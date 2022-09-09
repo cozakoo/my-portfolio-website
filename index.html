@@ -8,22 +8,29 @@
   <meta name="keywords" content="HTML, CSS, JavaScript" />
   <meta name="author" content="Martin Arcos" />
 
-  <!-- ICONO -->
+  <!-- I C O N O  -->
   <link rel="icon" href="src/logo.png" />
-  <!-- HOJAS DE ESTILO -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link href="libs/css/style_home.css" rel="stylesheet" />
-  <link rel="stylesheet" href="libs/css/normalize.css" />
-  <!-- FUENTES -->
+  <!-- I C O N  F O N T -->
+  <script src="https://kit.fontawesome.com/6439b0bc6e.js" crossorigin="anonymous"></script>
+
+  <!-- H O J A S   D E   E S T I L O -->
+  <!-- animacion -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+  <!-- mi hoja de estilo -->
+  <!-- <link href="libs/css/style_home.css" rel="stylesheet" /> -->
+  <!-- botstrap -->
+  <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+
+  <!-- F U E N T E S -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Caladea&family=Tiro+Devanagari+Hindi&family=GFS+Didot&&display=swap"
     rel="stylesheet" />
-  <!-- JSON -->
-  <script src="libs/js/modernizr-custom.js"></script>
-  <!--Icon-Font-->
-  <script src="https://kit.fontawesome.com/6439b0bc6e.js" crossorigin="anonymous"></script>
+
+  <!-- J S O N  -->
+  <script src="libs/js/bootstrap.bundle.min.js"></script>
+
   <title>BIENVENIDO A MI PORTAFOLIO</title>
 </head>
 
@@ -34,13 +41,49 @@
       ========================================================
       -->
   <!-- BARRA DE NAVEGACION -->
-  <nav class="Menu">
-    <img id="milogo" src="src/logo.png" alt="" />
-    <ul>
-      <li><a href="default.html">Principal</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <img src="src/logo.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="#">Home</a>
+      <a href="" style="text-decoration:none"><span class="navbar-brand mb-0 h1">final</span></a>
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
   </nav>
+
   <!--
       ========================================================
       							PRESENTACION
@@ -151,13 +194,13 @@
       							PIE DE PAGINA
       ========================================================
       -->
-<!--  -->
+  <!--  -->
   <!-- <div class="pieDePagina"> -->
-    <!-- <a href="https://www.facebook.com/MartinArcosVargas/" target="_blank"> -->
-      <!-- <i class="fa-brands fa-facebook"></i> -->
-      <!-- <img src="src/redesSociales/facebook.png" alt="" /> -->
-    <!-- </a> -->
-    <!-- <a href="https://github.com/cozakoo" target="_blank"
+  <!-- <a href="https://www.facebook.com/MartinArcosVargas/" target="_blank"> -->
+  <!-- <i class="fa-brands fa-facebook"></i> -->
+  <!-- <img src="src/redesSociales/facebook.png" alt="" /> -->
+  <!-- </a> -->
+  <!-- <a href="https://github.com/cozakoo" target="_blank"
         ><img src="src/redesSociales/github.png" alt=""
       /></a>
 
