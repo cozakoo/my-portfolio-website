@@ -1,206 +1,609 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Maaquetado Portafolio Web" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Martin Arcos" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Maaquetado Portafolio Web" />
-  <meta name="keywords" content="HTML, CSS, JavaScript" />
-  <meta name="author" content="Martin Arcos" />
 
-  <!-- I C O N O  -->
-  <link rel="icon" href="src/logo.png" />
-  <!-- I C O N  F O N T -->
-  <script src="https://kit.fontawesome.com/6439b0bc6e.js" crossorigin="anonymous"></script>
+    <!-- I C O N O  -->
+    <link rel="icon" href="src/logo.png" />
+    <!-- I C O N  F O N T -->
+    <script
+      src="https://kit.fontawesome.com/6439b0bc6e.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- H O J A S   D E   E S T I L O -->
-  <!-- animacion -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
-  <!-- mi hoja de estilo -->
-  <!-- <link href="libs/css/style_home.css" rel="stylesheet" /> -->
-  <!-- botstrap -->
-  <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <!-- H O J A S   D E   E S T I L O -->
+    <!-- animacion -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- mi hoja de estilo -->
+    <!-- <link href="libs/css/style_home.css" rel="stylesheet" /> -->
+    <!-- botstrap -->
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="libs/css/index_style.css" />
 
-  <!-- F U E N T E S -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Caladea&family=Tiro+Devanagari+Hindi&family=GFS+Didot&&display=swap"
-    rel="stylesheet" />
+    <!-- F U E N T E S -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Caladea&family=Tiro+Devanagari+Hindi&family=GFS+Didot&&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- J S O N  -->
-  <script src="libs/js/bootstrap.bundle.min.js"></script>
+    <!-- J S O N  -->
+    <script src="libs/js/bootstrap.bundle.min.js"></script>
 
-  <title>BIENVENIDO A MI PORTAFOLIO</title>
-</head>
+    <title>BIENVENIDO A MI PORTAFOLIO</title>
+  </head>
 
-<body>
-  <!--
+  <body>
+    <!--
       ========================================================
       							HEADER
       ========================================================
       -->
-  <!-- BARRA DE NAVEGACION -->
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <img src="src/logo.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
-      <a class="navbar-brand" href="#">Home</a>
-      <a href="" style="text-decoration:none"><span class="navbar-brand mb-0 h1">final</span></a>
-      <a class="navbar-brand" href="#">Navbar</a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg bg-light Menu">
+      <div class="container-fluid">
+        <img
+          id="logoMenu"
+          src="src/logo.png"
+          alt="Logo"
+          width="50"
+          height="44"
+          class="d-inline-block align-text-top"
+        />
+        <a href="" style="text-decoration: none"
+          ><span class="navbar-brand mb-0 h1">Principal</span></a
+        >
+        <a href="" style="text-decoration: none"
+          ><span class="navbar-brand mb-0 h1">Contacto</span></a
+        >
+        <a href="" style="text-decoration: none"
+          ><span class="navbar-brand mb-0 h1">Acerca de mi</span></a
+        >
       </div>
-  </nav>
+    </nav>
 
-  <!--
+    <!--
       ========================================================
       							PRESENTACION
       ========================================================
       -->
-  <div class="parrafo animate__animated animate__flipInX">
-    <div class="imagenPerfil">
-      <img src="src/descarga.jpg" />
+
+    <div
+      class="card mb-3 container-fluid parrafo animate__animated animate__flipInX"
+      style="max-width: 60%; margin-right: auto; margin-left: auto"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="src/1653617602064.jpg"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1>MARTÍN ARCOS VARGAS</h1>
+            <h5 class="card-title" id="profesion">
+              Analista Programador Universitario
+            </h5>
+            <h5 class="card-title" id="profesion">Full Stack Developer Jr</h5>
+            <p class="card-text" id="form_pregunta">Telefono</p>
+            <p class="card-text" id="form_respuesta">+54 9 505803</p>
+            <p class="card-text" id="form_pregunta">Email</p>
+            <p class="card-text" id="form_respuesta">
+              martinarcosvargas2@gmail.com
+            </p>
+            <p class="card-text" id="form_pregunta">Direccion</p>
+            <p class="card-text" id="form_respuesta">
+              Gaiman, Chubut Argentina
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="informacionPerfil">
-      <h1>MARTÍN ARCOS VARGAS</h1>
-      <p id="profesion"> Administrador y Diseñador Web</p>
-      <p id="form_pregunta">Telefono</p>
-      <p id="form_respuesta">+54 9 505803</p>
-      <p id="form_pregunta">Email</p>
-      <p id="form_respuesta">martinarcosvargas2@gmail.com</p>
-      <p id="form_pregunta">Direccion</p>
-      <p id="form_respuesta">Gaiman, Chubut Argentina</p>
-      <p id="form_pregunta">Fecha de nacimiento</p>
-      <p id="form_respuesta">12 de Agosto de 1998</p>
-    </div>
-  </div>
-  <!--
+
+    <br />
+    <hr />
+
+    <!--
       ========================================================
       							PRESENTACION
       ========================================================
       -->
-  <hr />
-  <div class="presentacion">
-    <h1 class="title">¡Hola! Soy Martín</h1>
-    <img src="src/diseno_web_con_wordpress-1.jpg" alt="" />
-    <p>
-      Hola! Actualmente me encuentro estudiando Analista Programador
-      Universitario y Licenciatura en Sistemas (Orientado a la planificación,
-      gestión y control de proyectos informáticos) ambas en la Universidad
-      Nacional de la Patagonia San Juan Bosco (UNPSJB) con sede en
-      Trelew-Chubut-Argentina.
-    </p>
-    <p>
-      Decidí estudiar programación porque fue lo que siempre me ha encantado y
-      por ende siempre me he capacitado. Cuento con conocimientos en los
-      siguientes lenguajes de programación: Java, JavaScript, C, C#, Python,
-      Pascal, Assembly, Ada, entre otros. También me he capacitado en
-      <b>#ArgentinaPrograma</b> y en la plataforma
-      <a href="https://jprogramadores.biblioredes.gob.cl/moodle/login/index.php"
-        target="_blank"><b>JovenesProgramadores</b></a>
-      donde realice varios cursos como: Ciberseguridad Ciudadana, CSS,
-      Aplicaciones Moviles, HTML, React, JQuery, entre otras.
-    </p>
-    <p>
-      Quiero adentrarme en el ámbito laboral de la programación para aplicar
-      mis conocimientos y aprender cada día mas. Me gustaría trabajar en una
-      empresa orientado a lo que es desarrollo de software, Bases de Datos
-      (relacionales y/o no relacionales), desarrollo web, etc.
-    </p>
-  </div>
-
-  <hr />
-
-  <!--
+    <!-- ATRIBUTOS AGREGADOS EN STYLE -->
+    <div
+      class="card mb-3"
+      style="max-width: 90%; margin-right: auto; margin-left: auto"
+    >
+      <div class="row g-0">
+        <h1 class="title">¡HOLA! SOY MARTÍN</h1>
+        <p></p>
+        <div class="col-md-4">
+          <img
+            src="src/diseno_web_con_wordpress-1.jpg"
+            class="img-fluid rounded-start"
+            alt="diseñador web"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+              Hola! Actualmente me encuentro estudiando Analista Programador
+              Universitario y Licenciatura en Sistemas (Orientado a la
+              planificación, gestión y control de proyectos informáticos) ambas
+              en la
+              <a href="http://www.unp.edu.ar/" target="_blank"
+                ><b
+                  >Universidad Nacional de la Patagonia San Juan Bosco
+                  (UNPSJB)</b
+                ></a
+              >con sede en Trelew-Chubut-Argentina.
+            </p>
+            <p class="card-text">
+              Decidí estudiar programación porque fue lo que siempre me ha
+              encantado y por ende siempre me he capacitado. Cuento con
+              conocimientos en los siguientes lenguajes de programación: Java,
+              JavaScript, C, C#, Python, Pascal, Assembly, Ada, entre otros.
+              También me he capacitado en
+              <a
+                href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+                target="_blank"
+                ><b>#ArgentinaPrograma</b></a
+              >
+              y en la plataforma
+              <a
+                href="https://jprogramadores.biblioredes.gob.cl/moodle/login/index.php"
+                target="_blank"
+                ><b>JovenesProgramadores</b></a
+              >
+              donde realice varios cursos como: Ciberseguridad Ciudadana, CSS,
+              Aplicaciones Moviles, HTML, React, JQuery, entre otras.
+            </p>
+            <p class="card-text">
+              Quiero adentrarme en el ámbito laboral de la programación para
+              aplicar mis conocimientos y aprender cada día mas. Me gustaría
+              trabajar en una empresa orientado a lo que es desarrollo de
+              software, Bases de Datos (relacionales y/o no relacionales),
+              desarrollo web, etc.
+            </p>
+            <p class="card-text">
+              Amante de la tecnología. Con amplios conocimientos en el sector
+              IT. Mi área preferida de trabajo es FrontEnd aunque mi titulación
+              es Full Stack Web Developer. Mi stack de trabajo incluye #HTML
+              #CSS #Bootstrap #Angular. Recibida como Tester de Software Manual.
+              Próximamente iré adquiriendo más habilidades y conocimientos.
+            </p>
+            <!-- <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <!--
       ========================================================
       							EXPERENCIA
       ========================================================
       -->
-
-  <div class="experiencia">
     <h1 class="title">EXPERIENCIA</h1>
-    <p>Experiencia en buscando trabajo</p>
-  </div>
+    <!-- ATRIBUTOS AGREGADOS EN STYLE -->
+    <div
+      class="accordion"
+      id="accordionPanelsStayOpenExample"
+      style="max-width: 30%; margin-right: auto; margin-left: auto"
+    >
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne"
+            aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne"
+          >
+            Mantenimiento y Reparación de equipos informáticos
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong
+                >Emprendimiento propio /// Junio 2019 - Actualidad.</strong
+              >
+            </p>
+            <br />
+            <p>
+              Diagnóstico de fallas. Reemplazo de piezas dañadas. Instalación y
+              configuración de Software. Instalación y configuración de Sistemas
+              Operativos. Instalación y configuración de programas. Instalación
+              y configuración de antivirus. Particionado de discos rígidos.
+              Armado de una computadora personal.
+            </p>
+            <button type="button" class="btn btn-primary">Referencia</button>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo"
+          >
+            Clases particulares de computación
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong>Emprendimiento propio /// 2018 - 2019.</strong>
+            </p>
+            <br />
+            <p>
+              Ayudando a personas que no estaban familizadas con una computadora
+              les enseñe el funcionamiento y a utilizar los paquetes de
+              Microsoft Ofice. Ayudando ademas a preparar una tesis sobre
+              Hemoterapia.
+            </p>
+            <button type="button" class="btn btn-primary">Referencia</button>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree"
+          >
+            Encargado de deposito
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong>Áridos Cárdenas /// 2019 - 2022.</strong>
+            </p>
+            <br />
+            <p>
+              Trato con clientes. Trato con proveedores. Trabajo en equipo.
+              Ayudando en el sector de reparación de mangueras hidraulicas.
+              Control de precios, stock y contabilidad.
+            </p>
+            <button type="button" class="btn btn-primary">Referencia</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <hr />
-
-  <!--
+    <br />
+    <hr />
+    <!--
       ========================================================
-      							FORMACION
+      							EDUCACIÓN
       ========================================================
       -->
+    <h1 class="title">EDUCACIÓN</h1>
+    <!-- ATRIBUTOS AGREGADOS EN STYLE -->
+    <div
+      class="accordion"
+      id="accordionPanelsStayOpenExample"
+      style="max-width: 90%; margin-right: auto; margin-left: auto"
+    >
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne"
+            aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne"
+          >
+            Analista Programador Universitario
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong
+                >Universidad Nacional de la Patagonia San Juan Bosco /// 2017 -
+                Actualidad.</strong
+              >
+            </p>
+            <br />
+            <p>
+              La carrera Analista Programador Universitario tiene como objetivo
+              la formación de un graduado con conocimientos básicos de los
+              fundamentos de la disciplina y de las tecnologías actuales, a fin
+              de resultar capacitado para el trabajo profesional en sistemas de
+              pequeña y mediana complejidad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo"
+          >
+            Diseñador y administrador de Páginas Web
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong
+                >Centro Formación Profesional 653 /// Junio 2022 - Diciembre
+                2022. Con certificación</strong
+              >
+            </p>
+            <br />
+            <p>
+              Diseño, maquetado y desarrollo de plataformas e-commerce, sitios
+              web institucionales y landing pages alineadas con la propuesta y
+              objetivos de la organización.
+            </p>
+            <button type="button" class="btn btn-primary">Certificado</button>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree"
+          >
+            Prgramador Web Full-Stack Junior
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong>#ArgentinaProgama /// 2022 - 2023.</strong>
+            </p>
+            <br />
+            <p>
+              Un programa para acceder a capacitaciones gratuitas en tres áreas:
+              programación, testing y habilidades digitales.
+            </p>
+            <br />
+            <p>
+              Se trata de un programa nacional y federal que tiene como objetivo
+              capacitar a personas en lenguajes y conocimientos sobre
+              programación, testing y habilidades digitales para potenciar la
+              empleabilidad en el sector del software y la tecnología. El
+              programa es impulsado por el Ministerio de Economía de la Nación
+              junto a los ministerios de Educación y de Ciencia y Tecnología.
+            </p>
+            <br />
+            <p>
+              Habilidades digitales, Arquitectura Web, Git/Github, Operadores de
+              búsqueda, SCRUM, Gestión del tiempo, APIs, HTML, CSS, Javascript,
+              Typescript, Bootstrap, Angular, SQL, SPA, MPA, POO, Java, JSP,
+              Spring Boot, DevOps, Seguridad Web, Testing, Deploy
+            </p>
+            <button type="button" class="btn btn-primary">
+              Certificado yo programo
+            </button>
+            <button type="button" class="btn btn-primary">
+              Certificado segunda etapa
+            </button>
+          </div>
+        </div>
+      </div>
 
-  <div class="formacion">
-    <h1 class="title">FORMACIÓN</h1>
-  </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFour"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFour"
+          >
+            Mantenimiento y Reparación de Equipos Informaticos
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFour"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong
+                >Centro Formación Profesional 653 /// Julio 2019 - Noviembre
+                2019.</strong
+              >
+            </p>
+            <br />
+            <p>
+              Instalación de Sistemas Operativos. Instalación de programas.
+              Reparación de Hardware. Repación ded Impresoras, etc
+            </p>
+            <button type="button" class="btn btn-primary">Certificado</button>
+          </div>
+        </div>
+      </div>
 
-  <!--
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFive"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFive"
+          >
+            Auxiliar Contable
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseFive"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFive"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong
+                >Centro Formación Profesional 653 /// Marzo 2019 - Junio
+                2019.</strong
+              >
+            </p>
+            <br />
+            <p>
+              Brindar apoyo en materia de procesos contables. Gestionar la
+              documentación necesaria para gestionar planillas, emitir
+              documentos financieros, actualizar libros contables y llevar a
+              cabo procesos legales, como el pago de impuestos y demás.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSix"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSix"
+          >
+            Tester QA Manual
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseSix"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSix"
+        >
+          <div class="accordion-body">
+            <p>
+              <strong>Say Quality /// Junio 2022 - Agosto 2022.</strong>
+            </p>
+            <br />
+            <p>
+              Fundamentación de las pruebas, Riesgo, Errores, defectos y fallas,
+              Pruebas exhaustivas, Alcance de las pruebas, Criterios de salida,
+              Concepto de testing, Testing vs. debugging, Principios generales
+              del testing, Casos de uso, Casos de prueba, Caja negra, caja
+              blanca y caja gris.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <!--
+      ========================================================
+      							HARD & SOFT SKILLS
+      ========================================================
+      -->
+    <h1 class="title">HARD & SOFT SKILLS</h1>
+    <br />
+    <hr />
+    <!--
+      ========================================================
+      							PROYECTOS
+      ========================================================
+      -->
+    <h1 class="title">PROYECTOS</h1>
+    <br />
+    <hr />
+
+    <!--
       ========================================================
       							BOTON WHATSAAPP AL FRENTE DE TODO
       ========================================================
       -->
-  <div class="botonWhatsapp">
+    <div class="botonWhatsapp">
     <a href="https://wa.me/5492804505803?text=" class="btn-wsp" target="_blank">
       <i class="fa fa-whatsapp icono"></i>
     </a>
   </div>
 
-  <!--
+    <!--
       ========================================================
       							BOTON DESCARGA CURRICULUM
       ========================================================
       -->
-  <hr />
+    <!-- <hr />
   <div class="box-3">
     <a href="libs/pdf/CV-martin-arcos.pdf" target="_blank">
       <div class="btn btn-three">Descargar Curriculum</div>
     </a>
-  </div>
+  </div> -->
 
-  <!--
+    <!--
       ========================================================
       							PIE DE PAGINA
       ========================================================
       -->
-  <!--  -->
-  <!-- <div class="pieDePagina"> -->
-  <!-- <a href="https://www.facebook.com/MartinArcosVargas/" target="_blank"> -->
-  <!-- <i class="fa-brands fa-facebook"></i> -->
-  <!-- <img src="src/redesSociales/facebook.png" alt="" /> -->
-  <!-- </a> -->
-  <!-- <a href="https://github.com/cozakoo" target="_blank"
+    <!--  -->
+    <!-- <div class="pieDePagina"> -->
+    <!-- <a href="https://www.facebook.com/MartinArcosVargas/" target="_blank"> -->
+    <!-- <i class="fa-brands fa-facebook"></i> -->
+    <!-- <img src="src/redesSociales/facebook.png" alt="" /> -->
+    <!-- </a> -->
+    <!-- <a href="https://github.com/cozakoo" target="_blank"
         ><img src="src/redesSociales/github.png" alt=""
       /></a>
 
@@ -221,9 +624,10 @@
       <a href="https://www.linkedin.com/in/martin-arcos" target="_blank"
         ><img src="src/redesSociales/linkedin.png" alt=""
       /></a> -->
-  <!-- </div> -->
-</body>
-
+    <!-- </div> -->
+  </body>
 </html>
 
 <!-- https://fontawesome.com/icons/facebook?s=solid&f=brands -->
+
+<!-- se selecciona dos veces la educacon y experiencia -->
