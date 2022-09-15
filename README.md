@@ -13,3 +13,5 @@ Tech stack used
 
 
 # my-portfolio-website
+
+https://github.com/cozakoo/my-portfolio-website/blob/main/LICENSE
