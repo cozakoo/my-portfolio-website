@@ -8,7 +8,7 @@ git commit -m "first commit"
 
 git branch -M main
 
-git remote add origin https://github.com/cozakoo/[name_repository].git
+git remote add origin https://github.com/cozakoo/my-portfolio-website.git
 git push -u origin main
 
 
@@ -24,7 +24,7 @@ git commit -m "actualizacion del proyecto"
 
 ---PUEDE HABER ERROR EN ESTA INSTUCCION
 
-git remote add origin https://github.com/cozakoo/[name_repository].git
+git remote add origin https://github.com/cozakoo/my-portfolio-website.git
 git branch -M main
 git push -u origin main
 
@@ -34,10 +34,10 @@ git push -u origin main
 -------------------------DESCARGAR----------------------------------
 git init
 
-git remote add origin https://github.com/cozakoo/[name_repository].git
+git remote add origin https://github.com/cozakoo/my-portfolio-website.git
 git remote -v
 
-git clone https://github.com/cozakoo/[name_repository].git
+git clone https://github.com/cozakoo/my-portfolio-website.git
 ls -l
 
 
