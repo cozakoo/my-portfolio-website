@@ -4,37 +4,37 @@ body {
   background-repeat: no-repeat;
   background-position: 100 0%;
   background-size: 100%;
-  background-color: #e2dcc8;
+  background-color: #3f5972;
 }
 
 body::-webkit-scrollbar {
-  width: 15px;               /* width of the entire scrollbar */
+  width: 15px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(88, 88, 88)/* color of the tracking area */
+  background: rgb(88, 88, 88); /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(182, 182, 182);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid rgb(87, 87, 87);  /* creates padding around scroll thumb */
+  background-color: rgb(182, 182, 182); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid rgb(87, 87, 87); /* creates padding around scroll thumb */
 }
 
 .Menu {
   position: fixed;
   top: 0;
   z-index: 10;
-  background: linear-gradient(160deg, #f1f1f1 20%, #e2dcc8);
+  background: linear-gradient(160deg, #7aa4aa 20%, #7aa4aa);
   width: 100%;
 }
 
 .Menu a:hover {
-  /* background-color: #c4b2b2b7; */
+  color: #ffffffb7;
 }
 
 #logoMenu {
-  margin-right: 2%;
+  /* margin-right: 2%; */
   transition: 0.5s;
 }
 
@@ -42,33 +42,12 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.3);
 }
 
-.icon_redes{
-  color: black;
-  text-decoration: none;
-  font-size: 230%;
-  margin-right: 0.7%;
-  margin-left: 0.7%;
-}
-
-.icon_redes:hover{
-  color: rgb(41, 128, 128);
-
-}
-
-#gmail{
-  font-size: 25px;
-  margin-right: 5px;
-  /* text-transform: none; */
-}
-
-
 #cardPresentacion {
-  background: linear-gradient(160deg, #B5CFB4 20%, #CDDEB9);
+  background: linear-gradient(160deg, #c0dab8 20%, #cddeb9);
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-
 }
 
 .cardEducacion {
@@ -77,9 +56,10 @@ body::-webkit-scrollbar-thumb {
   margin-right: auto;
   margin-left: auto;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  background-color: #c0dab8;
 }
 
-.cardEducacion img{
+.cardEducacion img {
   width: 90px;
   align: left;
   margin-right: 1%;
@@ -96,7 +76,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10%;
   margin-bottom: 10%;
   padding: 20px 20px;
-  background-color: #e2dcc8;
+  background-color: #c0dab8;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   border: 2px dashed #100f0f;
@@ -107,7 +87,8 @@ body::-webkit-scrollbar-thumb {
   font-family: "GFS Didot", serif;
   color: #000000;
   text-align: center;
-  /* box-shadow: 13px 20px 20px 4px rgba(0,0,0,1); */
+  /* EFECTO SOMBRA NO ME LO TOMA */
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }
 
 .parrafo #profesion {
@@ -135,7 +116,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title {
-  color: rgb(49, 49, 49);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Oleo Script", cursive;
 }
@@ -163,15 +144,12 @@ body::-webkit-scrollbar-thumb {
 
   /* texto */
   line-height: 50px;
-  /* text-align: center; */
   font-size: 40px;
 
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   transition: all 300ms ease;
-  /* margin-right: 0px; */
 }
-
 
 .btn-wsp:hover {
   background: #20ba5a;
@@ -190,28 +168,26 @@ body::-webkit-scrollbar-thumb {
 /* PIE DE PAGINA */
 .pieDePagina {
   border: 1px solid #0f3d3e;
-  background-color: #f1f1f1;
-  /* margin: 0px; */
-  padding: 2px;
-  text-align: left;
+  background-color: #8cb6ac;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 20px;
 }
 
-/* .pieDePagina img {
-width: 3%;
-width: 3%;
+.icon_redes {
+  color: black;
+  text-decoration: none;
+  font-size: 230%;
+  margin-right: 0.7%;
+  margin-left: 0.7%;
 }
 
-.pieDePagina #telefono {
-width: 25px;
-width: 3%;
+.icon_redes:hover {
+  color: rgb(41, 128, 128);
 }
 
-.pieDePagina a {
-padding: 0px;
-line-height: 0.5;
-margin: 0px;
-margin-top: 30%;
-margin-bottom: 2px;
-font-size: small;
-} */
+#gmail {
+  font-size: 25px;
+  margin-right: 5px;
+  /* text-transform: none; */
+}
