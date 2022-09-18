@@ -24,6 +24,7 @@
     <!-- mi hoja de estilo -->
     <!-- botstrap -->
     <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
+    <!-- hoja de estilo personalizada -->
     <link rel="stylesheet" href="libs/css/index_style.css" />
 
     <!-- F U E N T E S -->
@@ -74,17 +75,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="navbar-brand nav-link" aria-current="page" href="index.html"
+              <a
+                class="navbar-brand nav-link"
+                aria-current="page"
+                href="index.html"
                 >Principal</a
               >
             </li>
             <li class="nav-item">
-              <a class="navbar-brand nav-link" aria-current="page" href="#"
+              <a
+                class="navbar-brand nav-link"
+                aria-current="page"
+                href="#contacto"
                 >Contacto</a
               >
             </li>
             <li class="nav-item">
-              <a class="navbar-brand nav-link" aria-current="page" href="#"
+              <a
+                class="navbar-brand nav-link"
+                aria-current="page"
+                href="#acercaDeMi"
                 >Acerca de mi</a
               >
             </li>
@@ -98,23 +108,26 @@
       							PRESENTACION
       ========================================================
       -->
-
     <div
       class="card mb-3 container-fluid parrafo animate__animated animate__flipInX"
-      style="max-width: 60%; margin-right: auto; margin-left: auto"
+      id="contacto"
     >
       <div class="row g-0">
-        <div class="col-md-4">
-          <img src="src/123.jpg" class="img-fluid rounded-start" alt="..." />
-          <!-- <img src="src/1653617602064.jpg" class="img-fluid rounded-start" alt="..." /> -->
+        <div class="col-md-4 imagenTarjeta" >
+          <!-- <img src="src/123.jpg" class="img-fluid rounded-start" alt="..." /> -->
+          <img
+            src="src/1653617602064.jpg"
+            class="img-fluid rounded-start"
+            alt="Martin Arcos Vargas"
+          />
         </div>
         <div class="col-md-8">
-          <div class="card-body">
+          <div class="card-body cuerpoTarjeta">
             <h1>MARTÍN ARCOS VARGAS</h1>
             <h5 class="card-title" id="profesion">
               Analista Programador Universitario
             </h5>
-            <h5 class="card-title" id="profesion">Full Stack Developer Jr</h5>
+            <h5 class="card-title">Full Stack Developer Jr</h5>
             <p class="card-text" id="form_pregunta">Telefono</p>
             <p class="card-text" id="form_respuesta">+54 9 505803</p>
             <p class="card-text" id="form_pregunta">Email</p>
@@ -129,24 +142,18 @@
         </div>
       </div>
     </div>
-    <br />
-    <hr />
-
     <!--
       ========================================================
       							PRESENTACION
       ========================================================
       -->
-    <div class="card mb-3" id="cardPresentacion">
+    <br id="acercaDeMi" />
+    <br /><br />
+    <div class="card mb-3 cardPresentacion">
       <div class="row g-0">
-        <h1 class="title" style="margin-top: 15px">¡HOLA! SOY MARTÍN</h1>
-        <p></p>
-        <div class="col-md-4" style="padding: 1%">
-          <img
-            src="src/diseno_web_con_wordpress-1.jpg"
-            class="img-fluid rounded-start"
-            alt="diseñador web"
-          />
+        <h1 class="title" id="tituloPresentacion">¡HOLA! SOY MARTÍN</h1>
+        <div class="col-md-4 imagenPresentacion">
+          <img src="src/diseno_web_con_wordpress-1.jpg" class="img-fluid rounded-start" alt="diseñador web"/>
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -163,7 +170,6 @@
               HTML5, CSS3, JavasScript, TypeScript, Java, Python, C#, entre
               otros. Próximamente iré adquiriendo más habilidades y
               conocimientos.
-
               <!-- Me hee capacitado en
             <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
               target="_blank"><b>#ArgentinaPrograma</b></a>
@@ -190,9 +196,9 @@
         </div>
       </div>
     </div>
+
     <br />
     <hr />
-
     <!--
       ========================================================
       							EDUCACIÓN
@@ -202,33 +208,15 @@
     <div class="accordion cardEducacion">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#cardEducacion-item1"
-            aria-expanded="true"
-            aria-controls="cardEducacion-item1"
-          >
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cardEducacion-item1" aria-expanded="true" aria-controls="cardEducacion-item1">
             Analista Programador Universitario
           </button>
         </h2>
-        <div
-          id="cardEducacion-item1"
-          class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingOne"
-        >
+        <div id="cardEducacion-item1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
           <div class="accordion-body">
-            <p>
-              <strong>
-                <img
-                  src="src/unpsjb_white_bg.png"
-                  class="img-thumbnail"
-                  alt=""
-                />
+            <p><strong><img src="src/unpsjb_white_bg.png" class="img-thumbnail" alt=""/>
                 Universidad Nacional de la Patagonia San Juan Bosco /// 2017 -
-                Actualidad.</strong
-              >
+                Actualidad.</strong>
             </p>
             <br />
             <p>
@@ -238,11 +226,7 @@
               de resultar capacitado para el trabajo profesional en sistemas de
               pequeña y mediana complejidad.
             </p>
-            <a
-              href="http://www.ing.unp.edu.ar/analista-programador-universitario.html"
-              target="_blank"
-              ><button type="button" class="btn btn-primary">Ver más</button></a
-            >
+            <a href="http://www.ing.unp.edu.ar/analista-programador-universitario.html" target="_blank" ><button type="button" class="btn btn-primary">Ver más</button></a>
           </div>
         </div>
       </div>
@@ -341,12 +325,12 @@
               target="_blank"
               ><button type="button" class="btn btn-primary">Ver más</button></a
             >
-            <button type="button" class="btn btn-primary">
+            <!-- <button type="button" class="btn btn-primary">
               Certificado yo programo
             </button>
             <button type="button" class="btn btn-primary">
               Certificado segunda etapa
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -884,7 +868,7 @@
         </div>
       </div>
       <div class="row">
-        <p>© Todos los derechos reservado</p>
+        <p id="copyright">© Todos los derechos reservado</p>
       </div>
     </div>
   </body>
