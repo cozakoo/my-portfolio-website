@@ -1,0 +1,311 @@
+body {
+    /* background-color: #c0b5b5; */
+    background-image: url("../../media/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 100 0%;
+    background-size: 100%;
+    background-color: #3f5972;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(88, 88, 88);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(182, 182, 182);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(87, 87, 87);
+    /* creates padding around scroll thumb */
+}
+
+/* ESTILO LETRAS */
+.Menu a,
+.cuerpoTarjeta #form_pregunta {
+    font-weight: 600;
+}
+
+.cuerpoTarjeta #form_respuesta,
+#copyright {
+    font-style: italic;
+}
+
+#redes_gmail,
+#redes_telefono,
+#redes_map {
+    font-size: 25px;
+}
+
+.cuerpoTarjeta h1,
+.cuerpoTarjeta h5,
+.botonWhatsapp,
+.redesContacto,
+.piePaginalogo,
+#copyright,
+.title {
+    text-align: center;
+}
+
+/* TRANSICCION */
+#logoMenu,
+.icon_redes {
+    transition: 0.5s;
+}
+
+#logoMenu:hover,
+.icon_redes :hover {
+    transform: scale(1.3);
+}
+
+/* MARGENES */
+.parrafo,
+.cardPresentacion,
+.imagenPresentacion img,
+.cardEducacion,
+.cardExperiencia,
+.imagenPresentacion {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imagenTarjeta,
+.columna1PiePagina,
+.redesContacto,
+.piePaginalogo,
+.imagenPresentacion {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.logoEducaciones,
+#logoMenu {
+    margin-right: 1%;
+}
+
+.cuerpoTarjeta #form_pregunta,
+.cuerpoTarjeta #form_respuesta {
+    margin-bottom: 1%;
+}
+
+#redes_telefono,
+#redes_map {
+    margin-right: 13px;
+}
+
+.cardPresentacion,
+.imagenPresentacion {
+    padding: 10px;
+}
+
+.cardEducacion,
+.cardExperiencia {
+    max-width: 90%;
+}
+
+/* SOMBRAS */
+.parrafo,
+.cuerpoTarjeta h1,
+.cardPresentacion,
+.cardEducacion,
+.cardExperiencia {
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+}
+
+/* COLOR */
+.cuerpoTarjeta h1,
+.cuerpoTarjeta p,
+.icon_redes,
+.title {
+    color: #000000;
+}
+
+/*
+  ========================================================
+                BARRA DE NAVEGACION
+  ========================================================
+  */
+
+.Menu {
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(160deg, #7aa4aa 20%, #7aa4aa);
+    width: 100%;
+}
+
+.Menu a:hover {
+    color: #ffffffb7;
+}
+
+/*
+  ========================================================
+                PROPIEDADES DE CONTACTO
+  ========================================================
+  */
+.parrafo {
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 20px 20px;
+    background-color: #c0dab8;
+    /* BORDES */
+    border-radius: 5px;
+    border: 2px dashed #100f0f;
+    max-width: 60%;
+}
+
+.cuerpoTarjeta h1 {
+    font-family: "GFS Didot", serif;
+}
+
+.cuerpoTarjeta h5 {
+    font-size: 110%;
+    color: #272727;
+    font-weight: bold;
+}
+
+.cuerpoTarjeta p {
+    font-family: "Tiro Devanagari Hindi", serif;
+    margin-left: 5%;
+}
+
+
+.cuerpoTarjeta #form_respuesta {
+    margin-left: 60px;
+}
+
+/*
+  ========================================================
+                PRESENTACION
+  ========================================================
+  */
+
+.cardPresentacion {
+    background: linear-gradient(160deg, #c0dab8 20%, #c0dab8);
+    max-width: 70%;
+    text-align: justify;
+}
+
+#tituloPresentacion {
+    margin-top: 15px;
+}
+
+/*
+  ========================================================
+                EDUCACIÓN
+  ========================================================
+  */
+.logoEducaciones {
+    width: 6%;
+}
+
+/*
+  ========================================================
+                BOTON WSP AL FRENTE DE TODO
+  ========================================================
+  */
+.botonWhatsapp {
+    padding: 16px;
+}
+
+.btn-wsp {
+    /* posicionamiento y desplazamiento */
+    bottom: 50%;
+    right: 10px;
+    /* color y radio */
+    background: #25d365a7;
+    color: rgba(255, 255, 255, 0.679);
+    border-radius: 50px;
+    /* dimencion del circulo verde*/
+    width: 55px;
+    height: 55px;
+    /* texto */
+    line-height: 50px;
+    font-size: 40px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    transition: all 300ms ease;
+}
+
+.btn-wsp:hover {
+    background: #20ba5a;
+    color: #fff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .btn-wsp {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/*
+  ========================================================
+                PIE DE PAGINA
+  ========================================================
+  */
+.pieDePagina {
+    background-color: #8cb6ac;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 0px 0px 20px 0px;
+}
+
+.columna1PiePagina {
+    margin-left: 10%;
+    text-align: left;
+}
+
+#redes_gmail {
+    margin-right: 5px;
+}
+
+#redes_telefono {
+    left: 4px;
+}
+
+#redes_map {
+    left: 1px;
+}
+
+#ultimoIcono {
+    margin-right: 25%;
+}
+
+.icon_redes {
+    text-decoration: none;
+    font-size: 230%;
+}
+
+.icon_redes :hover {
+    color: rgb(25, 72, 72);
+}
+
+.piePaginalogo {
+    margin-right: 10%;
+}
+
+.title {
+    font-family: "Oleo Script", cursive;
+}
+
+/* POSICIONAMIENTOS */
+
+#redes_telefono,
+#redes_map,
+.parrafo {
+    position: relative;
+}
+
+.Menu,
+.btn-wsp {
+    position: fixed;
+}
