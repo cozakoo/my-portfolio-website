@@ -5076,7 +5076,7 @@ fieldset:disabled .btn {
 
 .accordion-item {
     color: var(--bs-accordion-color);
-    background-color: var(--bs-accordion-bg);
+    background-color: #a3c4a8;
     border: var(--bs-accordion-border-width) solid green
     /* var(--bs-accordion-border-color) */
 }
